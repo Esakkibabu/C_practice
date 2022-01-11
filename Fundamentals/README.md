@@ -20,4 +20,4 @@ Sub program section
 Body of sub program
 
 
-<img src=“images/C_char_set.jpg” raw=true alt=“C Character Set” style=“margin-right: 10px;”/>
+<img src=“Fundamentals/images/C_char_set.JPG” raw=true alt=“C Character Set” style=“margin-right: 10px;”/>
