@@ -20,6 +20,7 @@ Sub program section
 Body of sub program
 
 ![Test Image 3](/Fundamentals/images/C_char_set.JPG)
+![Test Image 3](/Fundamentals/images/C_tokens.JPG)
 
 <<<<<<< HEAD
 <img src=“images/C_char_set.jpg” raw=true alt=“C Character Set” style=“margin-right: 10px;”/>
