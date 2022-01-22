@@ -66,13 +66,13 @@ double        %lf
  [4] Deterime memory location of variable of function.
  [5] who can access a variable?
  
- Storage Specifier | Storage      |  intial value |  scope               | Life                    | 
--------------------------------------------------------------------------------------------------------- 
- auto 			   | stack    	  |  Garbage      | within block         | end of block            |
- extern 		   | Data Segment |   0			  | global multiple file | till end program        |
- static 		   | Data Segment |   0 		  | within block		 | till end program 	   |
- register 		   | CPU Register |  Garbage      | within block		 | end of block			   |
------------------------------------------------------------------------------------------------------------
+ Storage Specifier | Storage      |  intial value |  scope               | Life                            | 
+|--------------------------|--------------|---------------|----------------------|----------------------   |
+|auto 			   | stack    	  |  Garbage      | within block         | end of block            |
+|extern 		   | Data Segment |   0	          | global multiple file | till end program        |
+|static 		   | Data Segment |   0           | within block         | till end program 	   |
+|register 		   | CPU Register |  Garbage      | within block	 | end of block	           |
+|----------------------------------------------------------------------------------------------------------
 
 auto -> default storage class
 	 -> again same variable used for other operation which within brackets.
@@ -93,28 +93,28 @@ Two Main Reason to volatile variable:
 		
 # Memory Layout of C 
 
-	  |					|  Command Line argument and environment variables	
-      |    				|
+	  |	            |  Command Line argument and environment variables	
+          |    		    |
 	  |-----------------|
-	  |    Stack 		|
-	  |					|
+	  |    Stack 	    |
+	  |		    |
 	  |-----------------|
-	  |					|
-	  |					|
+	  |      	    |
+	  |		    |
 	  | --------------- |
-	  |					|
-	  |	   Heap 		|
+	  |   		    |   
+	  |	   Heap     |
 	  |-----------------|
-	  |					|  Intiailized to zero by execution
+	  |     	    |  Intiailized to zero by execution
 	  |  unintialized   |
-	  |    data (BSS)	|
+	  |    data (BSS)   |
 	  |-----------------|
-	  |					|  read from program file by execution 
+	  |		    |  read from program file by execution 
 	  |   Initialized   |
-	  |      data 		|
+	  |      data 	    |
 	  |-----------------|
-	  |					|
-	  | 	text		|
+	  |		    |
+	  | 	text	    |
 	  |-----------------|   
 	  
 
