@@ -66,13 +66,13 @@ double        %lf
  [4] Deterime memory location of variable of function.
  [5] who can access a variable?
  
- Storage Specifier | Storage      |  intial value |  scope               | Life                            | 
+|Storage Specifier         |  Storage     | intial value  |   scope              | Life                    | 
 |--------------------------|--------------|---------------|----------------------|----------------------   |
 |auto 			   | stack    	  |  Garbage      | within block         | end of block            |
 |extern 		   | Data Segment |   0	          | global multiple file | till end program        |
 |static 		   | Data Segment |   0           | within block         | till end program 	   |
 |register 		   | CPU Register |  Garbage      | within block	 | end of block	           |
-|----------------------------------------------------------------------------------------------------------
+|--------------------------|--------------|---------------|----------------------|-------------------------|
 
 auto -> default storage class
 	 -> again same variable used for other operation which within brackets.
