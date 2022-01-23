@@ -94,7 +94,7 @@ Two Main Reason to volatile variable:
 # Memory Layout of C 
 
 	  |	            |  Command Line argument and environment variables	
-          |    		   |
+        |    		   |
 	  |-----------------|
 	  |    Stack 	    |
 	  |		    |
