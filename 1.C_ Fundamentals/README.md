@@ -46,16 +46,17 @@ Body of sub program
 
 # Format Specifier
 	used in during Input and Output
-Character   %c 
-Integer     %d %i 
-unsigned    %u
-float        %f 
-Octal       %o
-Hexadecimal  %x %X 
-string        "%s\n"
-string         %s 
-address       %p 
-double        %lf 
+	
+|Character    | %c       |
+|Integer      | %d %i  	 |	
+|unsigned     | %u		 |
+|float        | %f 		 |
+|Octal        | %o		 |
+|Hexadecimal  | %x %X 	 |
+|string       | "%s\n"	 |
+|string       | %s 		 |
+|address      | %p 		 |
+|double       | %lf 	 |
 
 # Storage Class
     represent the visibility and location of variables.
@@ -120,6 +121,7 @@ Two Main Reason to volatile variable:
 
 
 
+	
 
 
  
